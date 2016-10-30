@@ -1,0 +1,63 @@
+.focus {
+    color: #ff9114;
+}
+
+.word {
+    cursor: pointer;
+}
+
+
+aside {
+    display: none !important;
+}
+
+
+.wordPanel {
+    max-height: 100px;
+    width: 250px;
+    border: 2px solid #c2bdbd;
+    padding: 5px;
+    background-color: #fbfbfb;
+}
+
+.wordPanel__showingWord {
+    float: left;
+}
+
+.showingWord__phonetic {
+    font-size: 0.9em;
+}
+
+.wordPanel__firstLine {
+    overflow : auto;
+}
+
+.button_wrapper__playButton {
+    cursor: pointer;
+    border-left: 13px solid gray;
+    border-right: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.button_wrapper {
+    float: right;
+    padding-top: 3px;
+}
+
+.firstLine {
+    line-height: 20px;
+}
+
+.wordPanel__explanation {
+    margin-top: 10px;
+    font-size: 0.9em;
+    max-height: 125px;
+    overflow: auto;
+}
+
+
+
+
+
+

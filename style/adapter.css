@@ -1,0 +1,49 @@
+.navigation {
+    width: 620px;
+    text-align: center;
+}
+
+.navigation__button {
+    line-height: 30px;
+    width: 60px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.navigation__button:hover {
+    background: yellow;
+
+}
+
+.ng {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    
+}
+
+
+.ng__button {
+    line-height: 30px;
+    width: 60px;
+    display: inline-block;
+    cursor: pointer;
+    color: gray;
+}
+
+.ng__button:hover {
+    background: gray;
+    color: white;
+}
+        
+.clear {
+    padding-bottom: 0 !important;
+}
+
+.selected {
+    color: blue;
+    font-weight: bold;
+}

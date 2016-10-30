@@ -1,0 +1,19 @@
+{
+	"name": "点击翻译",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "简易制作英文网站翻译插件",
+	"permissions": [
+		"http://*/",
+        "https://*/"
+	],
+	"icons": {
+		"16": "img/1.png",
+		"128": "img/1.png"
+	},
+	"content_scripts": [{
+		"matches": ["https://www.theguardian.com/*"],
+		"js": ["js/jquery.js","js/clearAd.js", "js/adapter.js", "js/inquire.js"],
+        "css": ["style/inquire.css","style/adapter.css"]
+	}]
+}
